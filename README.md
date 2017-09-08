@@ -1,8 +1,9 @@
 # springboot_vue
 
-> A Vue.js project
+> 这是一个整合spring boot 和vue.js的项目，直接将js/css编导打包到statics中，将html编译打包到templates中
 
-## Build Setup
+
+## 运行前端
 
 ``` bash
 # install dependencies
@@ -27,4 +28,12 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 运行后端
+
+``` bash
+mvn spring-boot:run
+```
+
+## TODO
+
+* 使用使用api的方式进行注册、登录
